@@ -43632,12 +43632,21 @@
                 "nl"
             ],
             "url": "https://bunq.me/{username}",
-            "checkType": "message",
+            "urlProbe": "https://api.bunq.me/v1/bunqme-fundraiser-profile",
+            "requestMethod": "POST",
+            "requestPayload": {
+                "pointer": {
+                    "type": "URL",
+                    "value": "https://bunq.me/{username}"
+                }
+            },
+            "headers": {
+                "Content-Type": "application/json",
+                "X-Bunq-Client-Request-Id": "maigret"
+            },
+            "checkType": "status_code",
             "usernameClaimed": "ali",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "absenceStrs": [
-                "This profile does not exist"
-            ]
+            "usernameUnclaimed": "noonewouldeverusethis7"
         }
     },
     "engines": {
