@@ -43645,6 +43645,9 @@
                 "X-Bunq-Client-Request-Id": "maigret"
             },
             "checkType": "status_code",
+            "errors": {
+                "Too many requests": "Rate limited"
+            },
             "usernameClaimed": "ali",
             "usernameUnclaimed": "noonewouldeverusethis7"
         }
