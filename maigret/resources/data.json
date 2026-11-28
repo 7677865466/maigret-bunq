@@ -151471,15 +151471,6 @@
                 "forum"
             ]
         },
-        "6glive.com": {
-            "engine": "Discuz",
-            "urlMain": "https://6glive.com",
-            "usernameClaimed": "olivedream",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "6ynvctvtuebnckw0806.icu": {
             "engine": "Discuz",
             "urlMain": "https://6ynvctvtuebnckw0806.icu",
@@ -151832,15 +151823,6 @@
                 "forum"
             ]
         },
-        "autoitx.com": {
-            "engine": "Discuz",
-            "urlMain": "https://autoitx.com",
-            "usernameClaimed": "thesnow",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "basscity.eu": {
             "engine": "MyBB",
             "urlMain": "https://basscity.eu",
@@ -151965,15 +151947,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
-            ]
-        },
-        "bbs.911.gs": {
-            "engine": "Discuz",
-            "urlMain": "https://bbs.911.gs",
-            "usernameClaimed": "muzhongzhe",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "bbs.asiasi.cn": {
@@ -152124,15 +152101,6 @@
             "engine": "Discuz",
             "urlMain": "https://bbs.gyzdh.cn",
             "usernameClaimed": "gyzdh",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "bbs.gzhifi.com": {
-            "engine": "Discuz",
-            "urlMain": "https://bbs.gzhifi.com",
-            "usernameClaimed": "admin",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -152912,15 +152880,6 @@
                 "forum"
             ]
         },
-        "demo.dwshop.net": {
-            "engine": "Discuz",
-            "urlMain": "https://demo.dwshop.net",
-            "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "demo.forumeze.com": {
             "engine": "MyBB",
             "urlMain": "https://demo.forumeze.com",
@@ -153231,15 +153190,6 @@
             "engine": "Discuz",
             "urlMain": "https://file.920js.com",
             "usernameClaimed": "jiangsu",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "first-legion.eu": {
-            "engine": "MyBB",
-            "urlMain": "https://first-legion.eu",
-            "usernameClaimed": "admin",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -153598,15 +153548,6 @@
                 "forum"
             ]
         },
-        "futanaripalace.com": {
-            "engine": "MyBB",
-            "urlMain": "https://www.futanaripalace.com",
-            "usernameClaimed": "ad123",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "gambas-es.org": {
             "engine": "MyBB",
             "urlMain": "https://gambas-es.org",
@@ -153701,15 +153642,6 @@
             "engine": "Discuz",
             "urlMain": "https://gwgf.vip",
             "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "gxfk.fktime.com": {
-            "engine": "Discuz",
-            "urlMain": "https://gxfk.fktime.com",
-            "usernameClaimed": "suixin",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -153882,15 +153814,6 @@
             "engine": "Discuz",
             "urlMain": "https://jjk.wiki",
             "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "jlpzj.net": {
-            "engine": "Discuz",
-            "urlMain": "https://jlpzj.net",
-            "usernameClaimed": "Administrator",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -155146,6 +155069,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "bbs.medicalforum.cn": {
@@ -155291,16 +155218,6 @@
             "engine": "Discuz",
             "urlMain": "http://chiyancfa.com",
             "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "coffeejp.com/bbs": {
-            "urlSubpath": "/bbs",
-            "engine": "Discuz",
-            "urlMain": "http://coffeejp.com",
-            "usernameClaimed": "mikeppsk",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -155460,16 +155377,6 @@
                 "forum"
             ]
         },
-        "hackforums.net": {
-            "engine": "MyBB",
-            "urlMain": "https://hackforums.net",
-            "usernameClaimed": "Ad0mC3",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum",
-                "hacking"
-            ]
-        },
         "haxorware.com/forums": {
             "urlSubpath": "/forums",
             "engine": "MyBB",
@@ -155613,15 +155520,6 @@
                 "forum",
                 "music",
                 "torrent"
-            ]
-        },
-        "nasyun.com": {
-            "engine": "Discuz",
-            "urlMain": "http://nasyun.com",
-            "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
             ]
         },
         "net188.com": {
@@ -155947,15 +155845,6 @@
                 "forum"
             ]
         },
-        "172-104-62-190.ip.linodeusercontent.com": {
-            "engine": "Discuz",
-            "urlMain": "https://172-104-62-190.ip.linodeusercontent.com",
-            "usernameClaimed": "Administrator",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "1v34.com": {
             "engine": "Discuz",
             "urlMain": "https://1v34.com",
@@ -155972,6 +155861,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "3gmir3.com": {
@@ -156857,16 +156750,6 @@
             "engine": "Discuz",
             "urlMain": "http://rxbbao.com",
             "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "sempre-roma.com/bbs": {
-            "urlSubpath": "/bbs",
-            "engine": "Discuz",
-            "urlMain": "http://sempre-roma.com",
-            "usernameClaimed": "bleue",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
