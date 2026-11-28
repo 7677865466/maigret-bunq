@@ -135626,6 +135626,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "ecured.cu": {
@@ -135805,6 +135809,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "chemicalforums.com": {
@@ -135869,16 +135877,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
-            ]
-        },
-        "pathfinderwiki.com/wiki": {
-            "urlSubpath": "/wiki",
-            "engine": "MediaWikiJson/w",
-            "urlMain": "https://pathfinderwiki.com",
-            "usernameClaimed": "Brandingopportunity",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "wiki"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "botanichka.ru": {
@@ -135898,15 +135900,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
-            ]
-        },
-        "nulled.cc": {
-            "engine": "XenForo",
-            "urlMain": "https://nulled.cc",
-            "usernameClaimed": "bizon",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "wikiprocedure.com/index.php": {
@@ -135927,6 +135924,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "rosettacode.org/wiki": {
@@ -135946,6 +135947,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "overwiki.ru": {
@@ -136190,6 +136195,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "esoacademy.com": {
@@ -136208,6 +136217,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "nudografia.pl": {
@@ -136247,15 +136260,6 @@
                 "wiki"
             ]
         },
-        "amibay.com": {
-            "engine": "XenForo",
-            "urlMain": "https://www.amibay.com",
-            "usernameClaimed": "pjvken",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "data-flair.training/forums": {
             "urlSubpath": "/forums",
             "engine": "bbPress",
@@ -136284,6 +136288,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "sqlzoo.net/wiki": {
@@ -136301,15 +136309,6 @@
             "engine": "bbPress",
             "urlMain": "https://gracethemes.com",
             "usernameClaimed": "amrobarbara",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "bitsharestalk.org": {
-            "engine": "SMF",
-            "urlMain": "https://bitsharestalk.org",
-            "usernameClaimed": "EuropaSH",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -136350,6 +136349,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "social"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "jeffbullas.com": {
@@ -136432,6 +136435,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "mage2.pro": {
@@ -136553,6 +136560,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "teamvvv.com/forums": {
@@ -136575,16 +136586,6 @@
                 "forum"
             ]
         },
-        "wiki-wiki.ru/wiki-wiki/index.php?title=$1": {
-            "urlSubpath": "/wiki-wiki/index.php?title=$1",
-            "engine": "MediaWikiJson",
-            "urlMain": "https://wiki-wiki.ru",
-            "usernameClaimed": "Vovkav",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "wiki"
-            ]
-        },
         "vetelib.com": {
             "engine": "XenForo",
             "urlMain": "https://www.vetelib.com",
@@ -136599,15 +136600,6 @@
             "engine": "bbPress",
             "urlMain": "https://thedigitaltheater.com",
             "usernameClaimed": "jonnyx37",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "lingvoforum.net": {
-            "engine": "SMF",
-            "urlMain": "https://lingvoforum.net",
-            "usernameClaimed": "Den34",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -136796,6 +136788,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "foroharley.com": {
@@ -136805,6 +136801,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "uznai-pravdu.com": {
@@ -137002,15 +137002,6 @@
                 "forum"
             ]
         },
-        "b6club.ru": {
-            "engine": "phpBB/Search",
-            "urlMain": "https://b6club.ru",
-            "usernameClaimed": "Pavel",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "vorpx.com/forums": {
             "urlSubpath": "/forums",
             "engine": "bbPress",
@@ -137065,16 +137056,6 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
-            ]
-        },
-        "wikiznanie.ru/wikipedia/index.php": {
-            "urlSubpath": "/wikipedia/index.php",
-            "engine": "MediaWikiJson",
-            "urlMain": "https://www.wikiznanie.ru",
-            "usernameClaimed": "Fedosin",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "wiki"
             ]
         },
         "wikiraider.com/index.php": {
@@ -137188,8 +137169,8 @@
                 "forum"
             ]
         },
-        "rigpawiki.org/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "rigpawiki.org/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://rigpawiki.org",
             "usernameClaimed": "GerardNikken",
@@ -137327,6 +137308,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "fmtic.com": {
@@ -137573,6 +137558,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "lesitedecuisine.fr": {
@@ -137916,6 +137905,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "open-forex.org": {
@@ -137986,15 +137979,6 @@
             "engine": "Invision",
             "urlMain": "https://www.psxextreme.info",
             "usernameClaimed": "Maj",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "nulled.in": {
-            "engine": "XenForo",
-            "urlMain": "https://nulled.in",
-            "usernameClaimed": "bizon",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -138089,6 +138073,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "care-tags.org": {
@@ -138439,6 +138427,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "hindupedia.com/en": {
@@ -138785,6 +138777,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "imhodom.ru/forums": {
@@ -138844,8 +138840,8 @@
                 "wiki"
             ]
         },
-        "asylumprojects.org/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "asylumprojects.org/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://asylumprojects.org",
             "usernameClaimed": "M-Explorer",
@@ -138870,16 +138866,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
-            ]
-        },
-        "kombuchakamp.com/forums": {
-            "urlSubpath": "/forums",
-            "engine": "bbPress",
-            "urlMain": "https://www.kombuchakamp.com",
-            "usernameClaimed": "hannah",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "beekeepingforum.co.uk": {
@@ -138916,6 +138906,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "kartapolaka.net/forums": {
@@ -139046,6 +139040,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "camera-wiki.org/wiki": {
@@ -139149,6 +139147,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "theautomaticearth.com/forums": {
@@ -139214,6 +139216,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "animeforum.ru": {
@@ -139551,16 +139557,6 @@
                 "forum"
             ]
         },
-        "absurdopedia.net/wiki": {
-            "urlSubpath": "/wiki",
-            "engine": "MediaWikiJson/w",
-            "urlMain": "https://absurdopedia.net",
-            "usernameClaimed": "Bebrams",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "wiki"
-            ]
-        },
         "disc-ff.com": {
             "engine": "phpBB/Search",
             "urlMain": "https://disc-ff.com",
@@ -139612,15 +139608,6 @@
             "engine": "phpBB/Search",
             "urlMain": "https://watchgirlsforum.net",
             "usernameClaimed": "WatchMaster",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "notebookchat.com": {
-            "engine": "SMF",
-            "urlMain": "https://www.notebookchat.com",
-            "usernameClaimed": "Gremmo",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -139748,6 +139735,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "kvalexam.ru/wiki": {
@@ -139786,6 +139777,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "quadcopterforum.com": {
@@ -139868,6 +139863,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "macusergroup.com.ar": {
@@ -139923,6 +139922,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "pittsburghsports.net": {
@@ -140000,8 +140003,8 @@
                 "forum"
             ]
         },
-        "biodiversityofindia.org/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "biodiversityofindia.org/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://www.biodiversityofindia.org",
             "usernameClaimed": "Akhileshmagal",
@@ -140062,6 +140065,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "fishingwiki.ru": {
@@ -140116,6 +140123,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "tibia-wiki.net/wiki": {
@@ -140219,6 +140230,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "nablawiki.ru/index.php": {
@@ -140322,6 +140337,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "police.community": {
@@ -140331,6 +140350,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "blackjacktournaments.com": {
@@ -140435,6 +140458,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "watchrepairtalk.com": {
@@ -140555,6 +140582,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "tecnoscienze.com/forums": {
@@ -140659,6 +140690,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "dailymanzar.com": {
@@ -140778,6 +140813,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "vw-transporter.ru/forum_t5": {
@@ -140862,6 +140901,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "mathstodon.xyz": {
@@ -140891,6 +140934,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "clubkia.ro": {
@@ -140937,6 +140984,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "hondacgclub.com.ar": {
@@ -140946,6 +140997,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "streamguild.ru": {
@@ -140973,6 +141028,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "camopedia.org/index.php": {
@@ -141010,6 +141069,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "winemakingtalk.com": {
@@ -141019,6 +141082,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "guitarcorneracademy.com/forums": {
@@ -141048,6 +141115,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "mammyland.com": {
@@ -141228,15 +141299,6 @@
                 "forum"
             ]
         },
-        "wildrats.ru": {
-            "engine": "phpBB/Search",
-            "urlMain": "https://wildrats.ru",
-            "usernameClaimed": "shv.p",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "cognoise.com": {
             "engine": "SMF",
             "urlMain": "https://cognoise.com",
@@ -141291,6 +141353,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "myoozic.com": {
@@ -141452,15 +141518,6 @@
                 "wiki"
             ]
         },
-        "forcesdz.com": {
-            "engine": "phpBB/Search",
-            "urlMain": "https://forcesdz.com",
-            "usernameClaimed": "saladin",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "soft8soft.com": {
             "engine": "bbPress",
             "urlMain": "https://www.soft8soft.com",
@@ -141591,8 +141648,8 @@
                 "wiki"
             ]
         },
-        "openelectrical.org/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "openelectrical.org/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://openelectrical.org",
             "usernameClaimed": "Jules",
@@ -141832,15 +141889,6 @@
                 "forum"
             ]
         },
-        "ausbb.com": {
-            "engine": "XenForo",
-            "urlMain": "https://ausbb.com",
-            "usernameClaimed": "a97489798",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "hotyogadoctor.com/hotyogaforum": {
             "urlSubpath": "/hotyogaforum",
             "engine": "bbPress",
@@ -141896,6 +141944,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "definedictionarymeaning.com": {
@@ -141921,15 +141973,6 @@
             "engine": "bbPress",
             "urlMain": "https://joomlead.com",
             "usernameClaimed": "remuaccmed-org",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
-        "dayzilla.ru": {
-            "engine": "XenForo",
-            "urlMain": "https://dayzilla.ru",
-            "usernameClaimed": "osotirer",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
@@ -141978,16 +142021,6 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "social"
-            ]
-        },
-        "simson.net/page": {
-            "urlSubpath": "/page",
-            "engine": "MediaWikiJson/wiki",
-            "urlMain": "https://simson.net",
-            "usernameClaimed": "Simson",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "wiki"
             ]
         },
         "appliantology.org": {
@@ -142099,10 +142132,14 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
-        "hibikiforum.net/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "hibikiforum.net/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://hibikiforum.net",
             "usernameClaimed": "Baku",
@@ -142304,6 +142341,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "sciter.com/forums": {
@@ -142392,15 +142433,6 @@
                 "coding"
             ]
         },
-        "codforums.com": {
-            "engine": "XenForo",
-            "urlMain": "https://www.codforums.com",
-            "usernameClaimed": "carlos",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "forum"
-            ]
-        },
         "ss-20.ru": {
             "engine": "SMF",
             "urlMain": "https://www.ss-20.ru",
@@ -142476,6 +142508,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "mtberos.com": {
@@ -142503,6 +142539,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "soloespolitica.com/foro": {
@@ -142525,8 +142565,8 @@
                 "forum"
             ]
         },
-        "vctrac.es/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "vctrac.es/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://vctrac.es",
             "usernameClaimed": "Elena",
@@ -142579,6 +142619,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "ivrpa.org/forums": {
@@ -142821,6 +142865,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "kalabalikyalnizlik.com": {
@@ -142953,10 +143001,14 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
-        "ruy.rye.com.mx/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "ruy.rye.com.mx/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://ruy.rye.com.mx",
             "usernameClaimed": "Ruy",
@@ -143193,6 +143245,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "social"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "viewsfromthesieve.co.uk": {
@@ -143266,6 +143322,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "defenceturk.com": {
@@ -143275,6 +143335,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "annoyatorium.com": {
@@ -143443,6 +143507,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "intermittent-spectacle.fr": {
@@ -143452,6 +143520,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "wiki.xmltv.org/index.php": {
@@ -143468,16 +143540,6 @@
             "engine": "MediaWikiJson",
             "urlMain": "https://genshtab.info",
             "usernameClaimed": "Editor1",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "wiki"
-            ]
-        },
-        "wikemacs.org/wiki": {
-            "urlSubpath": "/wiki",
-            "engine": "MediaWikiJson",
-            "urlMain": "https://wikemacs.org",
-            "usernameClaimed": "PuercoPop",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "wiki"
@@ -143623,8 +143685,8 @@
                 "social"
             ]
         },
-        "botanipedia.org/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "botanipedia.org/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://botanipedia.org",
             "usernameClaimed": "Enrique",
@@ -143762,6 +143824,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "wikiwatershed.org": {
@@ -144481,8 +144547,8 @@
                 "wiki"
             ]
         },
-        "wiki.nerdsgocasual.de/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "wiki.nerdsgocasual.de/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://wiki.nerdsgocasual.de",
             "usernameClaimed": "DagobertDuck98",
@@ -144731,6 +144797,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "paragliding.in.ua": {
@@ -144893,8 +144963,8 @@
                 "social"
             ]
         },
-        "enlightenment-revolution.org/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "enlightenment-revolution.org/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://enlightenment-revolution.org",
             "usernameClaimed": "Draked",
@@ -145026,16 +145096,6 @@
                 "forum"
             ]
         },
-        "opus-info.org/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
-            "engine": "MediaWikiJson",
-            "urlMain": "https://opus-info.org",
-            "usernameClaimed": "Bruno",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "wiki"
-            ]
-        },
         "tropicamente.it/forums": {
             "urlSubpath": "/forums",
             "engine": "bbPress",
@@ -145101,8 +145161,8 @@
                 "wiki"
             ]
         },
-        "vwbuswiki.de/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "vwbuswiki.de/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://www.vwbuswiki.de",
             "usernameClaimed": "AxelB",
@@ -145710,8 +145770,8 @@
                 "social"
             ]
         },
-        "free-astro.org/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "free-astro.org/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://free-astro.org",
             "usernameClaimed": "Cissou8",
@@ -145748,8 +145808,8 @@
                 "forum"
             ]
         },
-        "taxilife.ru/index.php?title=$1": {
-            "urlSubpath": "/index.php?title=$1",
+        "taxilife.ru/index.php": {
+            "urlSubpath": "/index.php",
             "engine": "MediaWikiJson",
             "urlMain": "https://taxilife.ru",
             "usernameClaimed": "TaxilifeWiki",
@@ -146293,15 +146353,6 @@
                 "wiki"
             ]
         },
-        "lbsbooks.com": {
-            "engine": "BuddyPress",
-            "urlMain": "https://lbsbooks.com",
-            "usernameClaimed": "lbsbooks",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "social"
-            ]
-        },
         "highlandemergency.org": {
             "engine": "BuddyPress",
             "urlMain": "https://www.highlandemergency.org",
@@ -146464,6 +146515,10 @@
                 "cooking",
                 "medicine",
                 "social"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "lambdaliterary.org/forums": {
@@ -146475,6 +146530,10 @@
             "tags": [
                 "books",
                 "forum"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "mormonshare.com/forums": {
@@ -146496,6 +146555,10 @@
             "tags": [
                 "forum",
                 "psychology"
+            ],
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
             ]
         },
         "180degreehealth.com/180forums": {
