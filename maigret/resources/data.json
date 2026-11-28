@@ -151821,15 +151821,6 @@
                 "social"
             ]
         },
-        "dydx.moe": {
-            "engine": "Mastodon",
-            "urlMain": "https://dydx.moe",
-            "usernameClaimed": "gpacalcapp",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "social"
-            ]
-        },
         "edolas.world": {
             "engine": "Mastodon",
             "urlMain": "https://edolas.world",
@@ -152329,15 +152320,6 @@
             "engine": "Gitea",
             "urlMain": "https://git.desenvolve-software.pt",
             "usernameClaimed": "Professor",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "coding"
-            ]
-        },
-        "git.dev.lexiniot.cn": {
-            "engine": "Gitea",
-            "urlMain": "https://git.dev.lexiniot.cn",
-            "usernameClaimed": "app_k1d0qy",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "coding"
@@ -154373,15 +154355,6 @@
             "engine": "Mastodon",
             "urlMain": "https://social.qunn.eu",
             "usernameClaimed": "afyaninotes",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "social"
-            ]
-        },
-        "social.s6jr.com": {
-            "engine": "Mastodon",
-            "urlMain": "https://social.s6jr.com",
-            "usernameClaimed": "tlc",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "social"

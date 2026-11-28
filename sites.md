@@ -1,6 +1,6 @@
 # Maigret database
 
-The file was updated on 2026-11-28. Maigret currently supports 13727 sites.
+The file was updated on 2026-11-28. Maigret currently supports 13724 sites.
 
 ## Contents
 
@@ -18,20 +18,20 @@ The file was updated on 2026-11-28. Maigret currently supports 13727 sites.
 
 ### Coverage
 
-- **Enabled sites:** 12942/13727 = 94.28%
-- **Check types:** message 8304 (64.16%), status_code 4562 (35.25%), response_url 76 (0.59%)
-- **Countries:** 77 tagged, 9000 sites (65.56%) have no country tag
+- **Enabled sites:** 12939/13724 = 94.28%
+- **Check types:** message 8304 (64.18%), status_code 4559 (35.23%), response_url 76 (0.59%)
+- **Countries:** 77 tagged, 8997 sites (65.56%) have no country tag
 
 ### Check strength
 
-- **Weak-signal checks:** 5698/12942 = 44.03% (status code checks, plus message checks missing a string)
-- **Status code checks:** 4562/12942 = 35.25% (existence inferred from the HTTP code alone)
-- **Message checks missing a string:** 1136/12942 = 8.78% (presence or absence strings, not both)
-- **Message checks without presence markers:** 247/12942 = 1.91% (subset of the line above, absence strings are the only signal)
+- **Weak-signal checks:** 5695/12939 = 44.01% (status code checks, plus message checks missing a string)
+- **Status code checks:** 4559/12939 = 35.23% (existence inferred from the HTTP code alone)
+- **Message checks missing a string:** 1136/12939 = 8.78% (presence or absence strings, not both)
+- **Message checks without presence markers:** 247/12939 = 1.91% (subset of the line above, absence strings are the only signal)
 
 ### Special cases
 
-- **Sites with probing:** 2666
+- **Sites with probing:** 2664
 - **Sites with activation:** OnlyFans, ProtonMail, Twitter, Vimeo, Weibo, WikimapiaSearch
 - **Sites behind bot protection:** 247 (tls_fingerprint 106, cf_js_challenge 58, ip_reputation 45, custom_bot_protection 23, cf_firewall 15)
 - **Sites with unreadable fields:** 24 (errorUrl x22, caseSentitive x2)
@@ -61,14 +61,14 @@ The file was updated on 2026-11-28. Maigret currently supports 13727 sites.
 - (1358)	`{urlMain}{urlSubpath}/members/?username={username} (XenForo)`
 - (1251)	`{urlMain}/u/{username} (DiscourseJson)`
 - (1215)	`{urlMain}{urlSubpath}/search.php?author={username} (phpBB/Search)`
-- (740)	`{urlMain}/{username} (Gitea)`
+- (739)	`{urlMain}/{username} (Gitea)`
 - (709)	`{urlMain}/index/8-0-{username} (uCoz)`
 - (569)	`{urlMain}/u/{username} (Flarum)`
 - (506)	`/{username}`
 - (499)	`{urlMain}/{username} (GitLab)`
 - (417)	`{urlMain}{urlSubpath}/User:{username} (MediaWikiJson)`
 - (407)	`/user/{username}`
-- (268)	`{urlMain}/@{username} (Mastodon)`
+- (266)	`{urlMain}/@{username} (Mastodon)`
 - (245)	`/profile/{username}`
 - (192)	`/@{username}`
 - (188)	`/u/{username}`
@@ -85,12 +85,12 @@ The file was updated on 2026-11-28. Maigret currently supports 13727 sites.
 - `XenForo`: 1287/1358 (94.8%)
 - `DiscourseJson`: 1238/1251 (99.0%)
 - `phpBB/Search`: 1203/1215 (99.0%)
-- `Gitea`: 732/740 (98.9%)
+- `Gitea`: 731/739 (98.9%)
 - `uCoz`: 632/709 (89.1%)
 - `Flarum`: 568/569 (99.8%)
 - `GitLab`: 497/499 (99.6%)
 - `MediaWikiJson`: 417/417 (100.0%)
-- `Mastodon`: 266/268 (99.3%)
+- `Mastodon`: 264/266 (99.2%)
 - `MediaWikiJson/w`: 172/172 (100.0%)
 - `vBulletin`: 62/157 (39.5%)
 - `Lemmy`: 142/143 (99.3%)
@@ -117,8 +117,8 @@ The file was updated on 2026-11-28. Maigret currently supports 13727 sites.
 - (8405)	`forum`
 - (5857)	`discussion`
 - (1722)	`tech`
-- (1579)	`coding`
-- (1172)	`social`
+- (1578)	`coding`
+- (1170)	`social`
 - (1155)	`wiki`
 - (837)	`gaming`
 - (444)	`hobby`
@@ -13550,7 +13550,6 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://dev.pressurecontrolsolutions.com) [dev.pressurecontrolsolutions.com (https://dev.pressurecontrolsolutions.com)](https://dev.pressurecontrolsolutions.com)*: top 100M, coding*
 1. ![](https://www.google.com/s2/favicons?domain=https://dood.net) [dood.net (https://dood.net)](https://dood.net)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://duuckzz.duckdns.org) [duuckzz.duckdns.org (https://duuckzz.duckdns.org)](https://duuckzz.duckdns.org)*: top 100M, social*
-1. ![](https://www.google.com/s2/favicons?domain=https://dydx.moe) [dydx.moe (https://dydx.moe)](https://dydx.moe)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://edolas.world) [edolas.world (https://edolas.world)](https://edolas.world)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://engineered.space) [engineered.space (https://engineered.space)](https://engineered.space)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://ewq.dzhome.ru) [ewq.dzhome.ru (https://ewq.dzhome.ru)](https://ewq.dzhome.ru)*: top 100M, coding*
@@ -13607,7 +13606,6 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://git.databerrypi.com) [git.databerrypi.com (https://git.databerrypi.com)](https://git.databerrypi.com)*: top 100M, coding*
 1. ![](https://www.google.com/s2/favicons?domain=https://git.dd3skj.com) [git.dd3skj.com (https://git.dd3skj.com)](https://git.dd3skj.com)*: top 100M, coding*
 1. ![](https://www.google.com/s2/favicons?domain=https://git.desenvolve-software.pt) [git.desenvolve-software.pt (https://git.desenvolve-software.pt)](https://git.desenvolve-software.pt)*: top 100M, coding*
-1. ![](https://www.google.com/s2/favicons?domain=https://git.dev.lexiniot.cn) [git.dev.lexiniot.cn (https://git.dev.lexiniot.cn)](https://git.dev.lexiniot.cn)*: top 100M, coding*
 1. ![](https://www.google.com/s2/favicons?domain=https://git.devxsupport.com) [git.devxsupport.com (https://git.devxsupport.com)](https://git.devxsupport.com)*: top 100M, coding*
 1. ![](https://www.google.com/s2/favicons?domain=https://git.dillerdigital.com) [git.dillerdigital.com (https://git.dillerdigital.com)](https://git.dillerdigital.com)*: top 100M, coding*
 1. ![](https://www.google.com/s2/favicons?domain=https://git.dof.dev) [git.dof.dev (https://git.dof.dev)](https://git.dof.dev)*: top 100M, coding*
@@ -13834,7 +13832,6 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://social.niklas.network) [social.niklas.network (https://social.niklas.network)](https://social.niklas.network)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://social.prado.it) [social.prado.it (https://social.prado.it)](https://social.prado.it)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://social.qunn.eu) [social.qunn.eu (https://social.qunn.eu)](https://social.qunn.eu)*: top 100M, social*
-1. ![](https://www.google.com/s2/favicons?domain=https://social.s6jr.com) [social.s6jr.com (https://social.s6jr.com)](https://social.s6jr.com)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://social.samizdatpixelpress.net) [social.samizdatpixelpress.net (https://social.samizdatpixelpress.net)](https://social.samizdatpixelpress.net)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://social.solitorian.com) [social.solitorian.com (https://social.solitorian.com)](https://social.solitorian.com)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://social.stacken.kth.se) [social.stacken.kth.se (https://social.stacken.kth.se)](https://social.stacken.kth.se)*: top 100M, social*
