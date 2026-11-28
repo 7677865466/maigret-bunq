@@ -7,6 +7,7 @@ import logging
 import os
 import sys
 import platform
+import requests
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from typing import Any, Dict, Iterator, List, Optional, Tuple
 import os.path as path
@@ -633,6 +634,8 @@ async def main():
 
     arg_parser = setup_arguments_parser(settings)
     args = arg_parser.parse_args()
+    if args.retries < 0:
+        arg_parser.error("--retries must be zero or greater")
     if args.connections <= 0:
         arg_parser.error("--max-connections must be greater than zero")
 
@@ -642,6 +645,9 @@ async def main():
             input_entries = read_input_file(args.input_file, SUPPORTED_IDS)
         except OSError as e:
             arg_parser.error(f"can't read input file: {e}")
+
+    if args.cookie_file and not os.path.isfile(args.cookie_file):
+        arg_parser.error(f"can't read cookie file: {args.cookie_file}")
 
     # Resolve Cloudflare webgate config (CLI flag OR settings.cloudflare_bypass.enabled)
     cf_bypass_config = build_cloudflare_bypass_config(
@@ -695,9 +701,12 @@ async def main():
 
 
     if args.parse_url:
-        extracted_ids = extract_ids_from_page(
-            args.parse_url, logger, timeout=args.timeout
-        )
+        try:
+            extracted_ids = extract_ids_from_page(
+                args.parse_url, logger, timeout=args.timeout
+            )
+        except requests.exceptions.RequestException as error:
+            arg_parser.error(f"can't parse page {args.parse_url}: {error}")
         targets.update(dict.fromkeys(extracted_ids.items()))
 
     if args.tags:
@@ -864,7 +873,12 @@ async def main():
         sys.exit(2)
 
     # Define one report filename template
-    report_filepath_tpl = path.join(report_dir, 'report_{username}{postfix}')
+    # The template goes through str.format below, so braces in the folder name
+    # (for example from -fo or the current directory) must be escaped.
+    report_filepath_tpl = (
+        path.join(report_dir, 'report_').replace('{', '{{').replace('}', '}}')
+        + '{username}{postfix}'
+    )
 
     # Web interface
     if args.web is not None:
