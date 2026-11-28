@@ -1,6 +1,6 @@
 # Maigret database
 
-The file was updated on 2026-11-27. Maigret currently supports 11683 sites.
+The file was updated on 2026-11-28. Maigret currently supports 11683 sites.
 
 ## Contents
 
@@ -18,16 +18,16 @@ The file was updated on 2026-11-27. Maigret currently supports 11683 sites.
 
 ### Coverage
 
-- **Enabled sites:** 10930/11683 = 93.55%
-- **Check types:** message 6878 (62.93%), status_code 3976 (36.38%), response_url 76 (0.7%)
+- **Enabled sites:** 10929/11683 = 93.55%
+- **Check types:** message 6878 (62.93%), status_code 3975 (36.37%), response_url 76 (0.7%)
 - **Countries:** 77 tagged, 7019 sites (60.08%) have no country tag
 
 ### Check strength
 
-- **Weak-signal checks:** 5024/10930 = 45.97% (status code checks, plus message checks missing a string)
-- **Status code checks:** 3976/10930 = 36.38% (existence inferred from the HTTP code alone)
-- **Message checks missing a string:** 1048/10930 = 9.59% (presence or absence strings, not both)
-- **Message checks without presence markers:** 240/10930 = 2.2% (subset of the line above, absence strings are the only signal)
+- **Weak-signal checks:** 5023/10929 = 45.96% (status code checks, plus message checks missing a string)
+- **Status code checks:** 3975/10929 = 36.37% (existence inferred from the HTTP code alone)
+- **Message checks missing a string:** 1048/10929 = 9.59% (presence or absence strings, not both)
+- **Message checks without presence markers:** 240/10929 = 2.2% (subset of the line above, absence strings are the only signal)
 
 ### Special cases
 
@@ -11817,7 +11817,7 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://users.tmok.com) [users.tmok.com (https://users.tmok.com)](https://users.tmok.com)*: top 100M, blog*
 1. ![](https://www.google.com/s2/favicons?domain=https://uwu.network) [uwu.network (https://uwu.network)](https://uwu.network)*: top 100M, blog*
 1. ![](https://www.google.com/s2/favicons?domain=https://utopia.duth.gr) [utopia.duth.gr (https://utopia.duth.gr)](https://utopia.duth.gr)*: top 100M, blog, gr*
-1. ![](https://www.google.com/s2/favicons?domain=https://www.modland.net) [ModLand (https://www.modland.net)](https://www.modland.net)*: top 100M, gaming*
+1. ![](https://www.google.com/s2/favicons?domain=https://www.modland.net) [ModLand (https://www.modland.net)](https://www.modland.net)*: top 100M, gaming*, search is disabled
 1. ![](https://www.google.com/s2/favicons?domain=https://wallpapercave.com) [WallpaperCave (https://wallpapercave.com)](https://wallpapercave.com)*: top 100M, art, photo*
 1. ![](https://www.google.com/s2/favicons?domain=https://serienstream.to) [SerienStream (https://serienstream.to)](https://serienstream.to)*: top 100M, de, movies, streaming*
 1. ![](https://www.google.com/s2/favicons?domain=https://aryion.com) [Aryion (https://aryion.com)](https://aryion.com)*: top 100M, art, erotic*

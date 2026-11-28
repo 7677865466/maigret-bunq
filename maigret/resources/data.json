@@ -135627,6 +135627,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "gaming"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "WallpaperCave": {
