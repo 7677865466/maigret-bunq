@@ -151410,15 +151410,6 @@
             "usernameClaimed": "admin",
             "usernameUnclaimed": "noonewouldeverusethis7"
         },
-        "amz-cctv.dealsdray.net": {
-            "engine": "PeerTube",
-            "urlMain": "https://amz-cctv.dealsdray.net",
-            "usernameClaimed": "tannu",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "video"
-            ]
-        },
         "anarchy.tube": {
             "engine": "PeerTube",
             "urlMain": "https://anarchy.tube",
@@ -152459,7 +152450,11 @@
             "engine": "DLE",
             "urlMain": "https://eng.universalstroymash.ru",
             "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7"
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
+            ]
         },
         "erld.net": {
             "engine": "DLE",
@@ -152942,7 +152937,11 @@
             "engine": "DLE",
             "urlMain": "https://hdmusic.cc",
             "usernameClaimed": "aleXs",
-            "usernameUnclaimed": "noonewouldeverusethis7"
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
+            ]
         },
         "he.ci": {
             "engine": "Chevereto",
@@ -154231,15 +154230,6 @@
             "engine": "Misskey",
             "urlMain": "https://mi.riperbool.com",
             "usernameClaimed": "riper1820",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "social"
-            ]
-        },
-        "mi.seanut.app": {
-            "engine": "Misskey",
-            "urlMain": "https://mi.seanut.app",
-            "usernameClaimed": "Snorlax_bot",
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "social"
@@ -158451,15 +158441,6 @@
                 "video"
             ]
         },
-        "video.ensena.co": {
-            "engine": "PeerTube",
-            "urlMain": "https://video.ensena.co",
-            "usernameClaimed": "ensena",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "video"
-            ]
-        },
         "video.eportal.ue.wroc.pl": {
             "engine": "PeerTube",
             "urlMain": "https://video.eportal.ue.wroc.pl",
@@ -159661,6 +159642,10 @@
             "usernameUnclaimed": "noonewouldeverusethis7",
             "tags": [
                 "photo"
+            ],
+            "disabled": true,
+            "protection": [
+                "ip_reputation"
             ]
         },
         "byrutgame.org": {
@@ -159713,7 +159698,11 @@
             "engine": "DLE",
             "urlMain": "https://get-sms.com",
             "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7"
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
+            ]
         },
         "gtorr.net": {
             "engine": "DLE",
@@ -159755,7 +159744,11 @@
             "engine": "DLE",
             "urlMain": "https://monster-mcpe.com",
             "usernameClaimed": "admin",
-            "usernameUnclaimed": "noonewouldeverusethis7"
+            "usernameUnclaimed": "noonewouldeverusethis7",
+            "disabled": true,
+            "protection": [
+                "cf_js_challenge"
+            ]
         },
         "msky.work": {
             "engine": "Misskey",
@@ -159844,15 +159837,6 @@
             "urlMain": "http://ultfoms.ru",
             "usernameClaimed": "admin",
             "usernameUnclaimed": "noonewouldeverusethis7"
-        },
-        "video.semper-connect.fr": {
-            "engine": "PeerTube",
-            "urlMain": "https://video.semper-connect.fr",
-            "usernameClaimed": "orchestre_national",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "tags": [
-                "video"
-            ]
         },
         "amateurgirls.info": {
             "engine": "DLE",

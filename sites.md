@@ -1,6 +1,6 @@
 # Maigret database
 
-The file was updated on 2026-11-28. Maigret currently supports 14377 sites.
+The file was updated on 2026-11-28. Maigret currently supports 14373 sites.
 
 ## Contents
 
@@ -18,20 +18,20 @@ The file was updated on 2026-11-28. Maigret currently supports 14377 sites.
 
 ### Coverage
 
-- **Enabled sites:** 13592/14377 = 94.54%
-- **Check types:** message 8304 (61.09%), status_code 5212 (38.35%), response_url 76 (0.56%)
-- **Countries:** 77 tagged, 9650 sites (67.12%) have no country tag
+- **Enabled sites:** 13583/14373 = 94.5%
+- **Check types:** message 8304 (61.14%), status_code 5203 (38.31%), response_url 76 (0.56%)
+- **Countries:** 77 tagged, 9646 sites (67.11%) have no country tag
 
 ### Check strength
 
-- **Weak-signal checks:** 6348/13592 = 46.7% (status code checks, plus message checks missing a string)
-- **Status code checks:** 5212/13592 = 38.35% (existence inferred from the HTTP code alone)
-- **Message checks missing a string:** 1136/13592 = 8.36% (presence or absence strings, not both)
-- **Message checks without presence markers:** 247/13592 = 1.82% (subset of the line above, absence strings are the only signal)
+- **Weak-signal checks:** 6339/13583 = 46.67% (status code checks, plus message checks missing a string)
+- **Status code checks:** 5203/13583 = 38.31% (existence inferred from the HTTP code alone)
+- **Message checks missing a string:** 1136/13583 = 8.36% (presence or absence strings, not both)
+- **Message checks without presence markers:** 247/13583 = 1.82% (subset of the line above, absence strings are the only signal)
 
 ### Special cases
 
-- **Sites with probing:** 3265
+- **Sites with probing:** 3261
 - **Sites with activation:** OnlyFans, ProtonMail, Twitter, Vimeo, Weibo, WikimapiaSearch
 - **Sites behind bot protection:** 247 (tls_fingerprint 106, cf_js_challenge 58, ip_reputation 45, custom_bot_protection 23, cf_firewall 15)
 - **Sites with unreadable fields:** 24 (errorUrl x22, caseSentitive x2)
@@ -68,8 +68,8 @@ The file was updated on 2026-11-28. Maigret currently supports 14377 sites.
 - (499)	`{urlMain}/{username} (GitLab)`
 - (417)	`{urlMain}{urlSubpath}/User:{username} (MediaWikiJson)`
 - (407)	`/user/{username}`
-- (405)	`{urlMain}/a/{username} (PeerTube)`
-- (383)	`{urlMain}/@{username} (Misskey)`
+- (402)	`{urlMain}/a/{username} (PeerTube)`
+- (382)	`{urlMain}/@{username} (Misskey)`
 - (246)	`{urlMain}{urlSubpath}/index.php?subaction=userinfo&user={username} (DLE)`
 - (245)	`/profile/{username}`
 - (192)	`/@{username}`
@@ -90,9 +90,9 @@ The file was updated on 2026-11-28. Maigret currently supports 14377 sites.
 - `Gitea`: 516/524 (98.5%)
 - `GitLab`: 497/499 (99.6%)
 - `MediaWikiJson`: 417/417 (100.0%)
-- `PeerTube`: 405/405 (100.0%)
-- `Misskey`: 383/383 (100.0%)
-- `DLE`: 246/246 (100.0%)
+- `PeerTube`: 402/402 (100.0%)
+- `Misskey`: 382/382 (100.0%)
+- `DLE`: 242/246 (98.4%)
 - `MediaWikiJson/w`: 172/172 (100.0%)
 - `vBulletin`: 62/157 (39.5%)
 - `Lemmy`: 142/143 (99.3%)
@@ -105,7 +105,7 @@ The file was updated on 2026-11-28. Maigret currently supports 14377 sites.
 - `bbPress`: 64/64 (100.0%)
 - `MediaWikiJson/wiki`: 23/24 (95.8%)
 - `engine404`: 18/23 (78.3%)
-- `Chevereto`: 21/21 (100.0%)
+- `Chevereto`: 20/21 (95.2%)
 - `op.gg`: 17/17 (100.0%)
 - `Vanilla`: 14/14 (100.0%)
 - `MediaWikiJson/mediawiki`: 11/11 (100.0%)
@@ -121,11 +121,11 @@ The file was updated on 2026-11-28. Maigret currently supports 14377 sites.
 - (8405)	`forum`
 - (5857)	`discussion`
 - (1722)	`tech`
-- (1366)	`social`
+- (1365)	`social`
 - (1363)	`coding`
 - (1155)	`wiki`
 - (837)	`gaming`
-- (562)	`video`
+- (559)	`video`
 - (444)	`hobby`
 - (387)	`education`
 - (307)	`business`
@@ -13519,7 +13519,6 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://allsochi.info) [allsochi.info (https://allsochi.info)](https://allsochi.info)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://alone-comet.xsns.jp) [alone-comet.xsns.jp (https://alone-comet.xsns.jp)](https://alone-comet.xsns.jp)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://altainews.kz) [altainews.kz (https://altainews.kz)](https://altainews.kz)*: top 100M*
-1. ![](https://www.google.com/s2/favicons?domain=https://amz-cctv.dealsdray.net) [amz-cctv.dealsdray.net (https://amz-cctv.dealsdray.net)](https://amz-cctv.dealsdray.net)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://anarchy.tube) [anarchy.tube (https://anarchy.tube)](https://anarchy.tube)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://and.farewell.my) [and.farewell.my (https://and.farewell.my)](https://and.farewell.my)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://androidi.ru) [androidi.ru (https://androidi.ru)](https://androidi.ru)*: top 100M*
@@ -13649,7 +13648,7 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://electricalschool.info) [electricalschool.info (https://electricalschool.info)](https://electricalschool.info)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://emojisouko.xsns.jp) [emojisouko.xsns.jp (https://emojisouko.xsns.jp)](https://emojisouko.xsns.jp)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://empire-tele.com) [empire-tele.com (https://empire-tele.com)](https://empire-tele.com)*: top 100M*
-1. ![](https://www.google.com/s2/favicons?domain=https://eng.universalstroymash.ru) [eng.universalstroymash.ru (https://eng.universalstroymash.ru)](https://eng.universalstroymash.ru)*: top 100M*
+1. ![](https://www.google.com/s2/favicons?domain=https://eng.universalstroymash.ru) [eng.universalstroymash.ru (https://eng.universalstroymash.ru)](https://eng.universalstroymash.ru)*: top 100M*, search is disabled
 1. ![](https://www.google.com/s2/favicons?domain=https://erld.net) [erld.net (https://erld.net)](https://erld.net)*: top 100M, porn*
 1. ![](https://www.google.com/s2/favicons?domain=https://erokrad.pw) [erokrad.pw (https://erokrad.pw)](https://erokrad.pw)*: top 100M, porn*
 1. ![](https://www.google.com/s2/favicons?domain=https://espertubo.eu) [espertubo.eu (https://espertubo.eu)](https://espertubo.eu)*: top 100M, video*
@@ -13709,7 +13708,7 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://hato-kubi.net) [hato-kubi.net (https://hato-kubi.net)](https://hato-kubi.net)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://hd.lord2026film.ru) [hd.lord2026film.ru (https://hd.lord2026film.ru)](https://hd.lord2026film.ru)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://hdlos.online) [hdlos.online (https://hdlos.online)](https://hdlos.online)*: top 100M*
-1. ![](https://www.google.com/s2/favicons?domain=https://hdmusic.cc) [hdmusic.cc (https://hdmusic.cc)](https://hdmusic.cc)*: top 100M*
+1. ![](https://www.google.com/s2/favicons?domain=https://hdmusic.cc) [hdmusic.cc (https://hdmusic.cc)](https://hdmusic.cc)*: top 100M*, search is disabled
 1. ![](https://www.google.com/s2/favicons?domain=https://he.ci) [he.ci (https://he.ci)](https://he.ci)*: top 100M, photo*
 1. ![](https://www.google.com/s2/favicons?domain=https://hellel.world) [hellel.world (https://hellel.world)](https://hellel.world)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://hellfirehackingclub.tube) [hellfirehackingclub.tube (https://hellfirehackingclub.tube)](https://hellfirehackingclub.tube)*: top 100M, video*
@@ -13865,7 +13864,6 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://mi.mushus.net) [mi.mushus.net (https://mi.mushus.net)](https://mi.mushus.net)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://mi.nanako-net.info) [mi.nanako-net.info (https://mi.nanako-net.info)](https://mi.nanako-net.info)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://mi.riperbool.com) [mi.riperbool.com (https://mi.riperbool.com)](https://mi.riperbool.com)*: top 100M, social*
-1. ![](https://www.google.com/s2/favicons?domain=https://mi.seanut.app) [mi.seanut.app (https://mi.seanut.app)](https://mi.seanut.app)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://mi.shellgei.org) [mi.shellgei.org (https://mi.shellgei.org)](https://mi.shellgei.org)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://mi.tsukuba.dev) [mi.tsukuba.dev (https://mi.tsukuba.dev)](https://mi.tsukuba.dev)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://mi.ul0829.net) [mi.ul0829.net (https://mi.ul0829.net)](https://mi.ul0829.net)*: top 100M, social*
@@ -14355,7 +14353,6 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://video.docmedico.de) [video.docmedico.de (https://video.docmedico.de)](https://video.docmedico.de)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://video.eai.org) [video.eai.org (https://video.eai.org)](https://video.eai.org)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://video.eerlijkdigitaalonderwijs.nl) [video.eerlijkdigitaalonderwijs.nl (https://video.eerlijkdigitaalonderwijs.nl)](https://video.eerlijkdigitaalonderwijs.nl)*: top 100M, video*
-1. ![](https://www.google.com/s2/favicons?domain=https://video.ensena.co) [video.ensena.co (https://video.ensena.co)](https://video.ensena.co)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://video.eportal.ue.wroc.pl) [video.eportal.ue.wroc.pl (https://video.eportal.ue.wroc.pl)](https://video.eportal.ue.wroc.pl)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://video.esotechnic.info) [video.esotechnic.info (https://video.esotechnic.info)](https://video.esotechnic.info)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://video.etik.media) [video.etik.media (https://video.etik.media)](https://video.etik.media)*: top 100M, video*
@@ -14491,7 +14488,7 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://zollege.tv) [zollege.tv (https://zollege.tv)](https://zollege.tv)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://5play.life) [5play.life (https://5play.life)](https://5play.life)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://5play.org) [5play.org (https://5play.org)](https://5play.org)*: top 100M*
-1. ![](https://www.google.com/s2/favicons?domain=https://allwebs.ru) [allwebs.ru (https://allwebs.ru)](https://allwebs.ru)*: top 100M, photo*
+1. ![](https://www.google.com/s2/favicons?domain=https://allwebs.ru) [allwebs.ru (https://allwebs.ru)](https://allwebs.ru)*: top 100M, photo*, search is disabled
 1. ![](https://www.google.com/s2/favicons?domain=https://byrutgame.org) [byrutgame.org (https://byrutgame.org)](https://byrutgame.org)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://cs-get.net) [cs-get.net (https://cs-get.net)](https://cs-get.net)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://filmix.day) [filmix.day (https://filmix.day)](https://filmix.day)*: top 100M*
@@ -14499,13 +14496,13 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://fs15.lol) [fs15.lol (https://fs15.lol)](https://fs15.lol)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://fs26.lol) [fs26.lol (https://fs26.lol)](https://fs26.lol)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://gaysex.cloud) [gaysex.cloud (https://gaysex.cloud)](https://gaysex.cloud)*: top 100M, porn, social*
-1. ![](https://www.google.com/s2/favicons?domain=https://get-sms.com) [get-sms.com (https://get-sms.com)](https://get-sms.com)*: top 100M*
+1. ![](https://www.google.com/s2/favicons?domain=https://get-sms.com) [get-sms.com (https://get-sms.com)](https://get-sms.com)*: top 100M*, search is disabled
 1. ![](https://www.google.com/s2/favicons?domain=https://gtorr.net) [gtorr.net (https://gtorr.net)](https://gtorr.net)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://kichkas.biz) [kichkas.biz (https://kichkas.biz)](https://kichkas.biz)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://mc-addons.com) [mc-addons.com (https://mc-addons.com)](https://mc-addons.com)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://misskey.chn.moe) [misskey.chn.moe (https://misskey.chn.moe)](https://misskey.chn.moe)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://misskey.sweshelo.jp) [misskey.sweshelo.jp (https://misskey.sweshelo.jp)](https://misskey.sweshelo.jp)*: top 100M, social*
-1. ![](https://www.google.com/s2/favicons?domain=https://monster-mcpe.com) [monster-mcpe.com (https://monster-mcpe.com)](https://monster-mcpe.com)*: top 100M*
+1. ![](https://www.google.com/s2/favicons?domain=https://monster-mcpe.com) [monster-mcpe.com (https://monster-mcpe.com)](https://monster-mcpe.com)*: top 100M*, search is disabled
 1. ![](https://www.google.com/s2/favicons?domain=https://msky.work) [msky.work (https://msky.work)](https://msky.work)*: top 100M, social*
 1. ![](https://www.google.com/s2/favicons?domain=https://naswup.com) [naswup.com (https://naswup.com)](https://naswup.com)*: top 100M, photo, porn*
 1. ![](https://www.google.com/s2/favicons?domain=https://nr.akarinext.org) [nr.akarinext.org (https://nr.akarinext.org)](https://nr.akarinext.org)*: top 100M, social*
@@ -14518,7 +14515,6 @@ Rank data fetched from Majestic Million by domains.
 1. ![](https://www.google.com/s2/favicons?domain=https://soft9lib.com) [soft9lib.com (https://soft9lib.com)](https://soft9lib.com)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=https://softdroids.com) [softdroids.com (https://softdroids.com)](https://softdroids.com)*: top 100M*
 1. ![](https://www.google.com/s2/favicons?domain=http://ultfoms.ru) [ultfoms.ru (http://ultfoms.ru)](http://ultfoms.ru)*: top 100M*
-1. ![](https://www.google.com/s2/favicons?domain=https://video.semper-connect.fr) [video.semper-connect.fr (https://video.semper-connect.fr)](https://video.semper-connect.fr)*: top 100M, video*
 1. ![](https://www.google.com/s2/favicons?domain=https://amateurgirls.info) [amateurgirls.info (https://amateurgirls.info)](https://amateurgirls.info)*: top 100M, porn*
 1. ![](https://www.google.com/s2/favicons?domain=https://homeporno.vip) [homeporno.vip (https://homeporno.vip)](https://homeporno.vip)*: top 100M, porn*
 1. ![](https://www.google.com/s2/favicons?domain=https://intim-melitopol.click) [intim-melitopol.click (https://intim-melitopol.click)](https://intim-melitopol.click)*: top 100M, classified, erotic*
